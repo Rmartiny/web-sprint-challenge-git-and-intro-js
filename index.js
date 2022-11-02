@@ -249,7 +249,7 @@ Use listOfNames to do the following:
 function listOfNames(array) {
   return {array.names}
 }
-console.log(listOfNames);
+console.log(listOfNames(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
