@@ -247,15 +247,18 @@ Use listOfNames to do the following:
 */
 
 function listOfNames(key,array) {
+
+  const newarray=
   for(let key in array)
   {
     console.log(key);
     console.log(array(key));
 
   }
+  return newarray
   
 }
-console.log(listOfNames(name,artists));
+console.log(listOfNames(artists.name,artists));
 
 
 
