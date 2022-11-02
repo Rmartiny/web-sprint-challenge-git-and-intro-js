@@ -235,7 +235,7 @@ function getArtistByIndex(array,number) {
   return `the artist at index ${array[number].id} is ${array[number].name}`
 
 }
-console.log(getArtistByIndex(artists[8]));
+console.log(getArtistByIndex(artists,8));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
