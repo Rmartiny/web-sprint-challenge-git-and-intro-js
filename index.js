@@ -1,3 +1,5 @@
+const { Linter } = require("eslint");
+
 const artists = [
   {
     "id": 0,
@@ -272,8 +274,8 @@ Use removeArtist to do the following:
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
 function removeArtist(array,number) {
-  const newArray2 = [];
-  for(i=0;i<array.length, i++;)
+  let newArray2 = [];
+  for( let i=0 ; i<array.length , i++; )
   if (array[i] = number) {array.splice (i,1);}
 
   return newArray2
