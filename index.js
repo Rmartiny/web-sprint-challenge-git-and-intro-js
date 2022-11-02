@@ -246,10 +246,17 @@ Use listOfNames to do the following:
 🌟 EXAMPLE of return: ["Amedeo Modigliani", "Vasiliy Kandinskiy", "Diego Rivera"....]
 */
 
-function listOfNames(array) {
-  return {array.names}
+function listOfNames(key,array) {
+  for(let key in array)
+  {
+    console.log(key);
+    console.log(array(key));
+
+  }
+  
 }
-console.log(listOfNames(artists));
+console.log(listOfNames(name,artists));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
