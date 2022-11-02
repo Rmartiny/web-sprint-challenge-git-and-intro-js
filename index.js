@@ -273,8 +273,8 @@ Use removeArtist to do the following:
 
 function removeArtist(array,number) {
   const newArray2 = [];
-  for(i=0;i<array.length, i++);
-  if (array = number) {array.splice (i,1);}
+  for(i=0;i<array.length, i++;)
+  if (array[i] = number) {array.splice (i,1);}
 
   return newArray2
   }
