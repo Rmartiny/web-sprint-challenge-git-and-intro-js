@@ -302,7 +302,7 @@ function addArtist(array,name,years,genre,nationality,bio) {
   array.push (object);
   return array;
 }
-console.log(artists,'Raven Martiny','1992-11-4', 'Web Design','american",'lorem ipsum')
+console.log(artists,'Raven Martiny','1992-11-4', 'Web Design','american','lorem ipsom')
 
 
 
