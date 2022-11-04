@@ -277,11 +277,11 @@ function removeArtist(array) {
   const lessartists=[];
   for(let i=0; i<array.length;i++ )
  {if (array[i].inculdes (paintings <=100))
-return array};
+return array;}
 
 }
   
-console.log removeArtist(artists)
+console.log (removeArtist(artists));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
