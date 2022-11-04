@@ -314,11 +314,8 @@ Use lotsOfArt to do the following:
 🌟 EXAMPLE: lotsOfArt(artists) will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]
 */
 
-function lotsOfArt(array,) {
-  const topartist= (array.filter(array))
-  {return array.paintings >= 100 }
-
-  };
+function lotsOfArt(array) {
+  const topartist= array.filter ((array)=> {return array.paintings >=100});}
 console.log(lotsOfArt(artists))
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
