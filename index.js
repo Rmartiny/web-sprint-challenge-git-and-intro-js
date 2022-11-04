@@ -315,9 +315,10 @@ Use lotsOfArt to do the following:
 */
 
 function lotsOfArt(array,) {
-  let topArtist = array.filter(array=> array.paintings> 100);
-  return array.name;
-}
+  const topartist= (array.filter(array))
+  {return array.paintings >= 100 }
+
+  };
 console.log(lotsOfArt(artists))
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
