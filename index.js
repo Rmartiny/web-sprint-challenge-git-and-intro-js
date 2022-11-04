@@ -275,8 +275,8 @@ Use removeArtist to do the following:
 
 function removeArtist(array,paintings) {
   const lessartists=[];
-  for(let i=0; i<array.length;i++ )
- {if (array[i].includes (paintings <=100))
+  for(let i=0; i<artists.length;i++ )
+ {if (artists[i].includes (paintings <=100))
 return array;}
 
 }
