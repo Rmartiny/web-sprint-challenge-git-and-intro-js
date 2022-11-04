@@ -273,12 +273,15 @@ Use removeArtist to do the following:
 5. Return the resulting copied array
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
-function removeArtist() {
- 
+function removeArtist(array) {
+  const lessartists=[];
+  for(let i=0: i<array.length;i++ )
+ {if (array[i].inculdes (paintings <=100))
+return array};
 
 }
   
-
+console.log removeArtist(artists)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -314,9 +317,8 @@ Use lotsOfArt to do the following:
 🌟 EXAMPLE: lotsOfArt(artists) will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]
 */
 
-function lotsOfArt(array) {
-  const topartist= array.filter ((array)=> {return array.paintings >=100});}
-console.log(lotsOfArt(artists))
+function lotsOfArt()
+{}
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
 1. Receive the artist array as an argument passed from the FIRST parameter
