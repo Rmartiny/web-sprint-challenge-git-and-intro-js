@@ -315,7 +315,7 @@ Use lotsOfArt to do the following:
 */
 
 function lotsOfArt(array) {
-  let topArtist = artists.filter (function(e) { return e.paintings> 100 ;
+  let topArtist = array.filter (function(e) { return e.paintings> 100 ;
   });
   console.log (lotsOfArt(artists))
 
