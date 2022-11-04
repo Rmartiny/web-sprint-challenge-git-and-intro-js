@@ -318,7 +318,7 @@ function lotsOfArt(array) {
   let topArtist = array.filter(array => array.paintings> 100);
   return array.name;
 }
-console.log(lotsOfArt(artists))
+console.log(lotsOfArt(artists.name))
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
 1. Receive the artist array as an argument passed from the FIRST parameter
