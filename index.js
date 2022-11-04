@@ -273,11 +273,10 @@ Use removeArtist to do the following:
 5. Return the resulting copied array
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
-function removeArtist(array,paintings) {
-  const lessartists=[];
-  for(let i=0; i<artists.length;i++ )
- {if (artists[i].includes (paintings <=100))
-return array;}
+function removeArtist(array) {
+
+  return array.paintings>=100
+ 
 
 }
   
