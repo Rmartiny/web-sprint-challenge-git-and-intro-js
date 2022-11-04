@@ -314,8 +314,8 @@ Use lotsOfArt to do the following:
 🌟 EXAMPLE: lotsOfArt(artists) will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]
 */
 
-function lotsOfArt(array,key,number) {
-  const topartist = (array.fliter(key>= number));
+function lotsOfArt(array,paintings,number) {
+  const topartist = (array.fliter(paintings>= number));
 
   return array; 
 }
