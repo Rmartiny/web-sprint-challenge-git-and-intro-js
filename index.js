@@ -274,9 +274,9 @@ Use removeArtist to do the following:
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
 function removeArtist(array, number) {
-copy ([...array]);
-copy.splice(0,1)
-return copy
+artistsCopy= [...array];
+artistsCopy.splice(0,1)
+return artistsCopy
 
 }
 console.log(removeArtist(artists))
