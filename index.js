@@ -274,9 +274,11 @@ Use removeArtist to do the following:
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
 function removeArtist(array,number) {
-const lessArray = array.filter( artist === array.id >= number)  ;
-
-return true;
+const lessArray = array.filter ( (array.id) =>{
+  if( array.id >= number){
+    return true
+  });
+}
 }
 
 
