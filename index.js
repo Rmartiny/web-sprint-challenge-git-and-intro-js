@@ -314,8 +314,16 @@ Use lotsOfArt to do the following:
 🌟 EXAMPLE: lotsOfArt(artists) will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]
 */
 
-function lotsOfArt()
-{}
+function lotsOfArt(array)
+{ const bigpainters= array.filter(artist => artist.paintings >= 100)
+return array
+
+}
+console.log lotsOfArt(artists)
+
+
+
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
 1. Receive the artist array as an argument passed from the FIRST parameter
