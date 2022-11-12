@@ -275,7 +275,7 @@ Use removeArtist to do the following:
 
 function removeArtist(array,number) {
 const oneless= array.filter(array => number>= [number])
-return oneless
+return true
 }
 
 
