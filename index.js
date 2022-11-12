@@ -316,7 +316,7 @@ Use lotsOfArt to do the following:
 
 function lotsOfArt(array)
 { const bigpainters=  array.filter (array=> array.paintings >=100)
-  return array}
+  return array.name}
  
  console.log (lotsOfArt(artists))
 
