@@ -274,11 +274,11 @@ Use removeArtist to do the following:
 🌟 EXAMPLE: if removeArtist is invoked with the artists array and the number 0, it will return the resulting array with Amedeo Modigliani removed from our dataset. */
 
 function removeArtist(array,number) {
-const oneless= [...array];
-oneless.splice(number,1);
-return array
-
+const oneless= array.filter(array => number>= [number])
+return oneless
 }
+
+
 console.log(removeArtist(artists,1))
 
 
