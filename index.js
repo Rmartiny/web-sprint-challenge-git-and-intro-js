@@ -317,7 +317,7 @@ Use lotsOfArt to do the following:
 function lotsOfArt(array)
 { const bigpainters= [];
   for (let i =0; i < array.length; i++);
-  if (array.paintings >= 100) { bigpainters.push(array[i])}
+  if (artists.paintings >= 100) { bigpainters.push(array[i])}
  }
   console.log (lotsOfArt(artists))
 
