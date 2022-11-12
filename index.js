@@ -319,7 +319,7 @@ function lotsOfArt(array)
 return array
 
 }
-console.log lotsOfArt(artists);
+console.log (lotsOfArt(artists));
 
 
 
