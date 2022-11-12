@@ -279,7 +279,7 @@ artists.copy.splice(0,1)
 return array
 
 }
-console.log(removeArtist(artists))
+console.log(removeArtist(artists,1))
 
 
 
