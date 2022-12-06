@@ -317,8 +317,8 @@ Use lotsOfArt to do the following:
 function lotsOfArt(array)
 { let bigpaint=[];
   for(let i=0; i<array.length; i++)
-  if (array.paintings > 100){
-    bigpaint.push(array.name)
+  if (array.paintings [i] > 100){
+    bigpaint.push(array [i].name)
   }
 
 	return bigpaint
