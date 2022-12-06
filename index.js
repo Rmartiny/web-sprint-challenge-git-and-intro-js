@@ -344,14 +344,14 @@ function artistInfo(array, name){
   let bioarray=[];
   for(let i=0; i<array.length; i++)
   if (array[i].bio){
-    newArray.push(array[i].bio)
+    bioarray.push(array[i].bio)
   }
 
 	return bioarray
   
   
 }
-console.log(listOfNames(artists));
+console.log(listOfNames(artists,El Greco));
 
 
 
