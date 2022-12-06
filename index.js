@@ -353,7 +353,7 @@ function artistInfo(array, name){
   
   
 }
-console.log(bioArray(artists,'frida kahlo'));
+console.log(artistInfo(artists,'frida kahlo'));
   
   
 
