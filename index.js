@@ -325,7 +325,7 @@ function lotsOfArt(array)
   
   
 }
-console.log(listOfNames(artists));
+console.log(lotsOfArt(artists));
 
 
 
@@ -351,7 +351,7 @@ function artistInfo(array, name){
   
   
 }
-console.log(listOfNames(artists,El Greco));
+console.log(artistInfo(artists,El Greco))
 
 
 
