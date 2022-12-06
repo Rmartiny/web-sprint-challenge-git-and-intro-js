@@ -343,7 +343,7 @@ Use artistInfo to do the following:
 function artistInfo(array, name){
   let bioarray=[];
   for(let i=0; i<array.length; i++)
-  if (array[i].bio){
+  if (array[i].name){
     bioarray.push(array[i].bio)
   }
 
@@ -351,7 +351,7 @@ function artistInfo(array, name){
   
   
 }
-console.log(artistInfo(artists,El Greco))
+console.log(artistInfo(artists,pablo picasso))
 
 
 
