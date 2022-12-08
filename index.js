@@ -345,7 +345,7 @@ function artistInfo(array,name){
   for (let i=0; i<array.length; i++)
 
   if(array[i].name){
-  bioarray.push (array.bio)
+  bioarray.push (array[i].bio)
     } return bioarray ;
 }
   console.log (artistInfo(artists,'frida kahlo'))
