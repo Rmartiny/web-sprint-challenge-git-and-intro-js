@@ -341,15 +341,15 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,string){
-let bioarray = [];
+let bioarray = [];{
 for( i=0; i< array.length; i++)
-if(array[i].includes(string))
+if(array[i].map(string))
  
 
 bioarray.push(array[10].bio)
 
 return bioarray
-  
+}
 }
 
  console.log (artistInfo(artists,'kazimir Malevich'))
