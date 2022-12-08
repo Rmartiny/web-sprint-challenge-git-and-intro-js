@@ -344,7 +344,7 @@ function artistInfo(array,){
   let bioarray =[];
  
 
-bioarray.push(array[9].bio)
+bioarray.push(array[10].bio)
 
 return bioarray
   
