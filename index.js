@@ -348,7 +348,7 @@ bioarray.push(array.bio)
 return bioarray
 
 }
- console.log (artistInfo(artists, 'frida kahlo'))
+ console.log (artistInfo(artists, 'Pablo Picasso'))
 
 
 
