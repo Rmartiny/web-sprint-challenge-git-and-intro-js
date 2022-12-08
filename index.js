@@ -348,7 +348,7 @@ function artistInfo(array,string){
   bioarray.push(array[i].bio)
   return bioarray
   }
-  console.log artistInfo(artists,'frida kahlo')
+  console.log (artistInfo(artists,'frida kahlo'))
 
 
 
