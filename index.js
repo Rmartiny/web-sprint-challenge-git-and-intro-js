@@ -343,7 +343,7 @@ Use artistInfo to do the following:
 function artistInfo(array,name){
   let bioarray =[];
   for (let i=0 ;i < array.length; i++)
-if (artists.name.includes('Pablo Picasso')){
+if (artists.name. ='Pablo Picasso');{
 bioarray.push(artists[i].bio)}
 return bioarray
 
