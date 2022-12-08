@@ -341,15 +341,9 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array){
-  const bioarray= [];
-  for(let i = 0; i < artists.length; i++) {
-    if(artists[i].includes('kazimir malevich')) {
-      bioarray.push(artists.bio[i]);
-    }
-  }
-}
-  
- console.log (artistInfo(artists))
+  const bioindex= array.indexof('kazimir malevich');}
+
+  console.log artistInfo(artists)
 
 
 
