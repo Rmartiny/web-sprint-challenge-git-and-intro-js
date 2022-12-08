@@ -341,11 +341,11 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,name){
- artists.filter(artist => artist.name = 'frida kahlo')
- Return artists.bio 
-}
+if (array.includes (name))
+return array.bio
 
-console.log(artistInfo(artists, 'frida kahlo'));
+}
+ console.log (artistInfo(artists, 'frida kahlo'))
 
 
 
