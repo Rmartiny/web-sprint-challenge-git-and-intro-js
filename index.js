@@ -345,7 +345,7 @@ function artistInfo(array,string){
   for (let i=0 ;i < array.length; i++)
 if (array[i].name.includes(string));
 
-bioarray.push(array[13].bio)
+bioarray.push(array[14].bio)
 
 return bioarray
   
