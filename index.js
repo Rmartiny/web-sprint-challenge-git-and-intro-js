@@ -341,7 +341,9 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,string){
-  let bioarray =[];
+let bioarray = [];
+for( i=0; i< array.length; i++)
+if(array[i].includes(string))
  
 
 bioarray.push(array[10].bio)
