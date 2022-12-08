@@ -341,17 +341,12 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,name){
-  let bioArray=[];
-  for(let i=0; i<array.length; i++)
-  if (array[''].name){
-    bioArray.push(array[''].bio)
-  }
 
-	return bioArray
+
 
 
 }
-console.log(artistInfo(artists, 'frida kahlo'));
+console.log(artistInfo(artists[3].bio));
 
 
 
