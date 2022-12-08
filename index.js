@@ -347,7 +347,7 @@ function artistInfo(array,name){
   }
 }
 }
-}
+
 console.log(artistInfo(artists, 'frida kahlo'));
 
 
