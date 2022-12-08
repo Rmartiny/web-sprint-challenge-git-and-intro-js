@@ -341,17 +341,13 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,string){
-let bioarray = [];{
-for( i=0; i< array.length; i++)
-if(array[i].map(string))
- 
-
-bioarray.push(array[10].bio)
-
-return bioarray
-}
-}
-
+  const bioarray= [];
+  for(let i = 0; i < apples.length; i++) {
+    if(array[i].includes('kazmir malevich')) {
+      bioarray.push(bio[i]);
+    }
+  }
+  
  console.log (artistInfo(artists,'kazimir Malevich'))
 
 
