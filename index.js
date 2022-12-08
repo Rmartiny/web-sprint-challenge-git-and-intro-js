@@ -342,8 +342,8 @@ Use artistInfo to do the following:
 
 function artistInfo(array,name){
  artists.filter(artist => artist.name = 'frida kahlo')
- Return array.bio
-;}
+ Return artists.bio 
+}
 
 console.log(artistInfo(artists, 'frida kahlo'));
 
