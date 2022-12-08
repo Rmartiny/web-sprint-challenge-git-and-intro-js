@@ -341,9 +341,16 @@ Use artistInfo to do the following:
 */
 
 function artistInfo(array,name){
- const =array.map
- return array.bio
+  let bioArray=[];
+  for(let i=0; i<array.length; i++)
+  if (array[i].name){
+    bioArray.push(array[i].name)
+  }
+
+	return bioArray
   
+  
+
 }
 console.log(artistInfo(artists, 'frida kahlo'));
 
