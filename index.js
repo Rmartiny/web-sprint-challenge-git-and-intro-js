@@ -350,7 +350,7 @@ function artistInfo(arr,str){
   }
   return bio
 }
-console.log (artistInfo(artists, 'frida kahlo'))
+console.log (artistInfo(artists, 'Frida Kahlo'))
   
 
 
