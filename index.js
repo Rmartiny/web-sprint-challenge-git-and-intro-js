@@ -350,7 +350,7 @@ function artistInfo(arr,str){
   }
   return bio
 }
-console.log (artistInfo(artists,'Kazimir malevich" ))
+console.log (artistInfo(artists,'Kazimir malevich'))
   
 
 
