@@ -344,7 +344,7 @@ function artistInfo(array,name){
 
 for (let i = 0; i< array.length; i ++)
 if (array[i].name === name)
-return array.bio
+return array[i].bio
 
   console.log (artistInfo(artists,'frida kahlo'))
 
@@ -392,4 +392,5 @@ module.exports = {
   addArtist,
   lotsOfArt,
   artistInfo,
-  artistByCountry}
+  artistByCountry
+}
