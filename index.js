@@ -275,9 +275,9 @@ Use removeArtist to do the following:
 
 function removeArtist(array,number) {
 const oneless= array.splice(number,1) 
-return array
+return oneless
 
-};
+}
  console.log (removeArtist(artists,1))
 
 
@@ -344,9 +344,8 @@ function artistInfo(array,name){
   for (let i = 0 ; i<array.length ; i++){
   
     if (array[i].name === name){
-    bio.push(array[i].bio)
-  }
-  
+    bio.push(array[i].bio);
+  } 
   }
   return bio
 }
