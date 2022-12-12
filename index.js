@@ -275,7 +275,7 @@ Use removeArtist to do the following:
 
 function removeArtist(array,number) {
 const oneless= array.splice(number,1) 
-return oneless
+return array
 
 }
  console.log (removeArtist(artists,1))
