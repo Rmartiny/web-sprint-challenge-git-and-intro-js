@@ -343,7 +343,7 @@ function artistInfo(array,name){
   let bio = [ ];
   for (let i = 0 ; i<array.length ; i++){
   
-    if (array[i].name === name){
+    if (array[i].name === name)
    return array[i].bio
 }
 console.log (artistInfo(artists,'Kazimir Malevich'))
