@@ -392,4 +392,4 @@ module.exports = {
   addArtist,
   lotsOfArt,
   artistInfo,
-  artistByCountry};
+  artistByCountry}
