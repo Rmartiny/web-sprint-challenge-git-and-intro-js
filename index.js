@@ -349,7 +349,7 @@ function artistInfo(array,name){
   }
   return bio
 }
-console.log (artistInfo(artists,'Kazimir Malevich'))
+console.log (artistInfo(artists,'Pablo Picasso'))
   
 
 
