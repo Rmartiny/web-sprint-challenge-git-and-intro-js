@@ -374,7 +374,7 @@ Use artistByCountry to do the following:
 
 function artistByCountry(array,nationality){
   let artnat=[];
-  for (let i=0; i<array.length; i++;)
+  for (let i=0; i<array.length; i++)
   if (array[i].nationality === nationality){
     artnat.push(array[i].name)}
     return artnat
